@@ -1,3 +1,34 @@
+.dealer-cards .card, .player-cards .card {
+	margin-left: 5px;
+}
+
+.dealer-cards .card:first-child, .player-cards .card:first-child{
+	margin-left: 0;
+}
+
+ .new-cards .card:first-child{
+	margin-left: 5px;
+}
+
+.dealer-cards, .player-cards{
+	padding-top: 50px;
+	width: 164px;
+	margin: 0 auto;
+}
+
+.dealer-total, .player-total{
+	margin-top: 10px;
+}
+.flipped{
+	background-position: -158px -492px !important;
+}
+.card {
+    background-image: url(cards.png);
+    float: left;
+    height: 123px;
+    width: 79px;
+}
+
 /* Clubs */
 .ace-of-clubs{
 	background-position: 0 0;	
